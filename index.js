@@ -232,3 +232,28 @@ var fun = () => {
 fun()
 
 */
+
+/*
+//Map, Filter, Reduce
+
+const nums = [1, 2, 3, 4]
+
+const numsPlusIndex = nums.map((curr, i, currArr) => {
+    return curr+i;
+})
+
+console.log(numsPlusIndex)
+
+const filteredNums = nums.filter((curr, i, currArr) => {
+    return curr > 2;
+})
+
+
+console.log(filteredNums)
+
+const reducedNums = nums.reduce((accomulator, currNum, i, currArr) => {
+    return accomulator+i;
+},0)
+
+console.log(reducedNums)
+*/
